@@ -1,0 +1,22 @@
+Department,Audit_Dimension,Group,MPE_%,MAPE_%,Overall_MPE_%,MPE_Gap_pp,Bias_Direction
+FOODS_1,demand_quartile,Low,-5.92,11.62,-0.32,-5.6,over-forecast
+FOODS_1,demand_quartile,Medium-Low,12.09,13.18,-0.32,12.41,under-forecast
+FOODS_1,demand_quartile,Medium-High,28.75,28.75,-0.32,29.07,under-forecast
+FOODS_1,is_event,Event day,-6.21,17.17,-0.32,-5.89,over-forecast
+FOODS_1,weekday,Mon,-5.77,13.1,-0.32,-5.45,over-forecast
+FOODS_1,weekday,Sat,8.13,12.18,-0.32,8.45,under-forecast
+FOODS_2,demand_quartile,Low,-17.39,17.57,1.05,-18.44,over-forecast
+FOODS_3,demand_quartile,Low,-18538.38,18538.38,-51.45,-18486.93,over-forecast
+FOODS_3,demand_quartile,Medium-High,-5.82,8.43,-51.45,45.63,over-forecast
+FOODS_3,demand_quartile,High,0.84,6.76,-51.45,52.29,under-forecast
+FOODS_3,is_event,Normal day,-0.99,6.8,-51.45,50.46,over-forecast
+FOODS_3,is_event,Event day,-660.63,673.44,-51.45,-609.18,over-forecast
+FOODS_3,snap_CA,Non-SNAP,-75.32,81.94,-51.45,-23.87,over-forecast
+FOODS_3,snap_CA,SNAP day,-2.53,8.32,-51.45,48.92,over-forecast
+FOODS_3,weekday,Mon,-0.31,8.77,-51.45,51.14,over-forecast
+FOODS_3,weekday,Tue,-1.95,6.06,-51.45,49.5,over-forecast
+FOODS_3,weekday,Wed,-1.05,6.73,-51.45,50.4,over-forecast
+FOODS_3,weekday,Thu,-0.04,6.6,-51.45,51.41,over-forecast
+FOODS_3,weekday,Fri,-359.03,363.59,-51.45,-307.58,over-forecast
+FOODS_3,weekday,Sat,0.7,6.43,-51.45,52.15,under-forecast
+FOODS_3,weekday,Sun,-0.46,8.39,-51.45,50.99,over-forecast

@@ -1,0 +1,49 @@
+# requirements.txt
+# From History to Forecast: A Machine Learning Approach to Daily Food Demand Forecasting at Walmart CA_3 Using the M5 Dataset
+# Author: Julius Lauren Marasigan
+# Post-Graduate Diploma in Artificial Intelligence and Machine Learning | April 2026
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Python 3.10 or higher recommended
+
+# ── Core data manipulation ─────────────────────────────────────────────────────
+# Used across all notebooks and modeling.py
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ── Visualization ──────────────────────────────────────────────────────────────
+# matplotlib — all notebooks and modeling.py (forecast plots, feature importance)
+# seaborn    — Notebook 01, Notebook 02 (EDA distribution and heatmap charts)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Statistical time series models ────────────────────────────────────────────
+# Notebook 02 (STL decomposition, ADF test, ACF/PACF plots)
+# modeling.py (ExponentialSmoothing, ARIMA, SARIMA)
+statsmodels>=0.14.0
+
+# ── Machine learning ───────────────────────────────────────────────────────────
+# scikit-learn — modeling.py (RandomForestRegressor, GridSearchCV, TimeSeriesSplit)
+#                Notebook 05 (PartialDependenceDisplay)
+# xgboost      — modeling.py (XGBRegressor) — Stage 1 and Stage 2 winner
+# lightgbm     — modeling.py (LGBMRegressor) — Stage 1 candidate
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+lightgbm>=4.0.0
+
+# ── Model persistence ──────────────────────────────────────────────────────────
+# Notebook 04 — saving final tuned models to models/ as .pkl files
+joblib>=1.3.0
+
+# ── Explainability ─────────────────────────────────────────────────────────────
+# Notebook 05 — SHAP summary plot, waterfall plot, TreeExplainer
+shap>=0.42.0
+
+# ── Jupyter environment ────────────────────────────────────────────────────────
+# Required to run the notebooks
+# ipywidgets needed for interactive SHAP plots to render correctly
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
